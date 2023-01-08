@@ -1,0 +1,35 @@
+74. Enquanto candidato a uma vaga de estágio em uma renomada empresa do segmento de tecnologia, você descobriu, "sem querer querendo",  os critérios de avaliação utilizados no processo seletivo:
+
+i - A nota da avaliação teórica, que varia de 0 a 10;
+ii - A nota do teste de inglês, que varia de 0 a 10;
+iii - A nota da dinâmica de grupo, que varia de 0 a 10;
+iv - A nota da entrevista com o time técnico, que varia de 0 a 10;
+v - Ter sido monitor na faculdade, onde 0 é não e 1 é sim;
+vi - Ter participado de projeto de iniciação científica, onde 0 é não e 1 é sim;
+vii - Quantidade de vulnerabilidades reportadas.
+
+Além dos critérios listados, você também descobriu que o algoritmo utilizado para decidir se um candidato será aprovado é uma regressão logística, e pasme!, os dados utilizados para treinar o modelo são os seguintes:
+
+Confira os dados no link: https://docs.google.com/spreadsheets/d/1MHKICs-gbY-ptGood8mHEZYC7qqRbxU4/edit?usp=drivesdk&ouid=108756755938998534991&rtpof=true&sd=true
+
+Com base nessas informações, quais afirmações podem ser realizadas sobre os seguintes candidatos:
+
+Candidato 1: {'nota_avaliacao': 8, 'nota_ingles': 9, 'nota_dinamica': 7, 'nota_entrevista': 9, 'monitoria': 1, 'iniciacao_cientifica':0, 'vulnerabilidades_reportadas':0}
+Candidato 2: {'nota_avaliacao': 6, 'nota_ingles': 10, 'nota_dinamica': 8, 'nota_entrevista': 8, 'monitoria': 0, 'iniciacao_cientifica':0, 'vulnerabilidades_reportadas':1}
+Candidato 3: {'nota_avaliacao': 8, 'nota_ingles': 9, 'nota_dinamica': 8, 'nota_entrevista': 7, 'monitoria': 0, 'iniciacao_cientifica':0, 'vulnerabilidades_reportadas':0}
+
+Observações:
+Na coluna "Aprovado", 1 quer dizer aprovado e 0 quer dizer não aprovado;
+Use a proporção de 0,25 para os dados de teste e de 0,75 para os dados de treinamento;
+Use os hyper-parâmetros default do scikit-learn;
+Não normalize os dados.
+Esta questão é meramente ilustrativa e não reflete a forma que a Tempest realiza a seleção de seus candidatos.
+*
+Nenhum candidato foi aprovado.
+Apenas o candidato 1 foi aprovado.
+Apenas o candidato 2 foi aprovado.
+Apenas o candidato 3 foi aprovado.
+Apenas os candidatos 1 e 2 foram aprovados.
+Apenas os candidatos 1 e 3 foram aprovados.
+Apenas os candidatos 2 e 3 foram aprovados.
+Todos os candidatos foram aprovados.

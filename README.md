@@ -12,7 +12,7 @@ Instale todas as depedências utilizando o `pip` do Python
 
 execute o comando:
 
-```
+```txt
 pip install -r requirements.txt
 ```
 
@@ -20,8 +20,8 @@ pip install -r requirements.txt
 
 execute o comando:
 
-```
+```txt
 python ./machineLearningAnalysis.py
 ```
 
-e Seja feliz! 
+e Seja feliz!
